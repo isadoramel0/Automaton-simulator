@@ -51,9 +51,6 @@ A API fornece suporte a três tipos de autômatos:
 
 ### 🔹 Endpoints Gerais
 
-- `GET /{automata}/` 
-  - Retorna a lista de todos os {autômatos} cadastrados no sistema.
-
 - `GET /{automata}/{id}` 
   - Retorna um autômato específico pelo ID.
   - **Parâmetros:** `id` do autômato na URL.
@@ -91,9 +88,9 @@ Para explorar a API interativamente, acesse `http://127.0.0.1:8000/docs`.
 
 ## ✅ Testes
 
-Para rodar os testes, utilize:
+Para exemplos de testes, utilize:
 ```bash
-pytest tests/
+past:  /examples
 ```
 
 
